@@ -68,8 +68,8 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-5 gap-8 max-w-5xl mx-auto">
-          <div className="lg:col-span-3 bg-card rounded-lg border border-border p-6 lg:p-8">
+        <div className="max-w-5xl mx-auto space-y-10">
+          <div className="bg-card rounded-lg border border-border p-6 lg:p-8">
             <form className="space-y-5" onSubmit={handleSubmit}>
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
@@ -158,7 +158,7 @@ const ContactSection = () => {
             </form>
           </div>
 
-          <div className="lg:col-span-2 space-y-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="flex items-start gap-4">
               <div className="w-10 h-10 rounded-md bg-accent/10 flex items-center justify-center flex-shrink-0">
                 <Phone className="w-5 h-5 text-accent" />
@@ -201,6 +201,14 @@ const ContactSection = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="rounded-lg overflow-hidden border border-border">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1883.325386889999!2d72.8647182!3d19.2540459!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1f5ac3e0eab%3A0x740af6e8bdd273c6!2sMangal%20Murti%20Aluminium!5e0!3m2!1sen!2sie!4v1772043961167!5m2!1sen!2sie"
+            className="w-full h-64 md:h-80"
+            width="600"
+            height="450"
+            loading="lazy">
+            </iframe>
           </div>
         </div>
       </div>
