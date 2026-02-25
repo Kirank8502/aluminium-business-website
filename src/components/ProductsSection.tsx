@@ -80,14 +80,14 @@ const ProductsSection = () => {
                 <h3 className="font-display text-lg font-semibold text-foreground mb-1">
                   {product.name}
                 </h3>
-                <div className="flex items-baseline gap-1 mb-5">
+                {/* <div className="flex items-baseline gap-1 mb-5">
                   <span className="font-display text-3xl font-bold text-foreground">
                     {product.price}
                   </span>
                   <span className="text-muted-foreground text-sm">
                     {product.unit}
                   </span>
-                </div>
+                </div> */}
                 <ul className="space-y-3">
                   {product.features.map((feature) => (
                     <li key={feature} className="flex items-start gap-2.5 text-sm text-muted-foreground">

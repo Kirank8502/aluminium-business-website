@@ -165,6 +165,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-semibold text-foreground text-sm">Phone</p>
+                <p className="text-muted-foreground text-sm">+91 932 282 0720</p>
                 <p className="text-muted-foreground text-sm">+91 908 232 7678</p>
               </div>
             </div>
@@ -174,7 +175,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-semibold text-foreground text-sm">Email</p>
-                <p className="text-muted-foreground text-sm">dhurvkidecha413@gmal.com</p>
+                <p className="text-muted-foreground text-sm">dhruv413kidecha@gmal.com</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -195,8 +196,8 @@ const ContactSection = () => {
               <div>
                 <p className="font-semibold text-foreground text-sm">Working Hours</p>
                 <p className="text-muted-foreground text-sm">
-                  Mon – Fri: 7:30 AM – 5:00 PM<br />
-                  Sat: 8:00 AM – 1:00 PM
+                  Mon - Sat: 9:00 AM - 9:00 PM<br />
+                  Sun: 9:00 AM - 1:00 PM
                 </p>
               </div>
             </div>

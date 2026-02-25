@@ -4,7 +4,7 @@ const stats = [
   { icon: Clock, value: "15+", label: "Years Experience" },
   { icon: Users, value: "2,000+", label: "Happy Clients" },
   { icon: Award, value: "100%", label: "Quality Materials" },
-  { icon: ShieldCheck, value: "5 Year", label: "Warranty" },
+  // { icon: ShieldCheck, value: "5 Year", label: "Warranty" },
 ];
 
 const AboutSection = () => {
